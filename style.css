@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 25px;
+    text-align: center;
+
+}
+.row {
+    width: 100%;
+}
+.row div{
+    position:relative;
+    float:left;
+    background-color: grey;
+    margin: 5px;
+    border: 1px solid;
+    
+}
+h4 {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    float: right;
+}
+p {
+    padding: 5px;
+    float: left;
+}
+.chicken {
+    background-color: pink;
+}
+.beef {
+    background-color: red;
+}
+.sushi {
+    background-color: rgba(255, 235, 56, 0.842);
+}
+/* for desktop */
+@media (min-width:992px) {
+ .col-1, .col-2, .col-3{
+        width: 30%;
+} 
+}
+/* for window */
+ @media (min-width:768px) and (max-width:991px) {
+    .col-1, .col-2{
+        width: 48%;
+} 
+/* .col-3 {
+    width:92%
+} */
+ } 
+/* for mobile */
+ @media (max-width:767px) {
+    .col-1, .col-2, .col-3{
+        width: 80%; 
+    }
+    
+} 
